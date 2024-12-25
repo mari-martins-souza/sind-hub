@@ -1,0 +1,29 @@
+<form>
+
+    <h2>Conectar</h2>
+
+    <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="E-mail"
+        formControlName="email"
+    />
+
+    <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Senha"
+        formControlName="password"
+    />
+
+    <a
+        class="forgot-password"
+        (click)="togglePasswordArea()"
+    >
+        Esqueceu a senha?
+    </a>
+
+
+</form>

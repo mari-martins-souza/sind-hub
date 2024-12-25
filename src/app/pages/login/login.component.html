@@ -1,0 +1,18 @@
+<div class="logo">
+    <h1>
+        sind
+        <br>
+        hub
+    </h1>
+</div>
+
+<div class="login-form" *ngIf="showLoginForm">
+    <app-login-form></app-login-form>
+    <a (click)="toggleRegisterForm()">Não possui uma conta? Registre agora!</a>
+</div>
+
+<div class="register-form" *ngIf="showRegisterForm">
+    <app-register-form></app-register-form>
+    <button (click)="toggleLoginForm()">Voltar</button>
+</div>
+
