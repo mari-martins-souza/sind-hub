@@ -1,29 +1,39 @@
 <form>
 
-    <h2>Conectar</h2>
+    <div class="content">
 
-    <input
-        type="email"
-        id="email"
-        name="email"
-        placeholder="E-mail"
-        formControlName="email"
-    />
+        <h3>login</h3>
+        <h2>bem vindo(a) de volta</h2>
 
-    <input
-        type="password"
-        id="password"
-        name="password"
-        placeholder="Senha"
-        formControlName="password"
-    />
-
-    <a
-        class="forgot-password"
-        (click)="togglePasswordArea()"
-    >
-        Esqueceu a senha?
-    </a>
-
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="usuário"
+            formControlName="email"
+        />
+    
+        <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="senha"
+            formControlName="password"
+        />
+    
+        <button
+        id="btn-login"
+        >
+            Entrar
+        </button>
+    
+        <a
+            class="forgot-password"
+            (click)="togglePasswordArea()"
+        >
+            Esqueceu a senha?
+        </a>
+    
+    </div>
 
 </form>

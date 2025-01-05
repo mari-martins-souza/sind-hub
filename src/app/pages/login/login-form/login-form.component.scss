@@ -1,0 +1,67 @@
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    margin: auto;
+}
+
+form h2 {
+    font-family: "Roboto", serif;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+form h3 {
+    font-family: "Roboto", serif;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+form input {
+    display: flex;
+    margin: auto;
+    width: 350px;
+    height: 60px;
+    border-radius: 17px;
+    margin-bottom: 15px;
+    border: none;
+    padding-left: 20px;
+}
+
+form input::placeholder {
+    font-size: 1.2rem;
+    vertical-align: middle;
+    font-family: "Archivo", serif;
+    font-weight: 300;
+}
+
+#btn-login {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    margin:auto;
+    width: 350px;
+    height: 68px;
+    border-radius: 35px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: rgba(255, 255, 255, 0.541);
+    font-family: "Archivo", serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.content a {
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo", serif;
+    font-weight: 400;
+    text-decoration:underline;
+    text-underline-offset: 4px;
+}

@@ -4,15 +4,17 @@
         <br>
         hub
     </h1>
+    <h2>
+        SindHub!
+    </h2>
 </div>
 
 <div class="login-form" *ngIf="showLoginForm">
     <app-login-form></app-login-form>
-    <a (click)="toggleRegisterForm()">Não possui uma conta? Registre agora!</a>
+    <a (click)="toggleRegisterForm()">Não possui uma conta?<span> Registre agora!</span></a>
 </div>
 
 <div class="register-form" *ngIf="showRegisterForm">
     <app-register-form></app-register-form>
     <button (click)="toggleLoginForm()">Voltar</button>
 </div>
-
