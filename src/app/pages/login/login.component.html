@@ -11,10 +11,20 @@
 
 <div class="login-form" *ngIf="showLoginForm">
     <app-login-form></app-login-form>
-    <a (click)="toggleRegisterForm()">Não possui uma conta?<span> Registre agora!</span></a>
+    <a
+    class="toggle-register" 
+    (click)="toggleRegisterForm()">
+    Não possui uma conta?
+    <span> Registre agora!</span>
+    </a>
 </div>
 
 <div class="register-form" *ngIf="showRegisterForm">
     <app-register-form></app-register-form>
-    <button (click)="toggleLoginForm()">Voltar</button>
+    <a
+    class="toggle-login"
+    (click)="toggleLoginForm()"
+>
+    voltar
+</a>
 </div>

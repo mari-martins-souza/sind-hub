@@ -41,6 +41,7 @@
     padding: 40px;
     z-index: 1;
     position: relative;
+    width: 100%;
 }
 
 .login-form a {
@@ -56,4 +57,30 @@
 .login-form span {
     text-decoration:underline;
     text-underline-offset: 4px;
+}
+
+.toggle-login {
+    
+}
+
+.register-form {
+    background-color: #BFFB4F;
+    height: 65vh;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 40px;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+}
+
+.toggle-login {
+    font-family: "Archivo", serif;
+    font-weight: 400;
+    text-decoration:underline;
+    text-underline-offset: 4px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
 }
