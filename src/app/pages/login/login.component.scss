@@ -44,6 +44,17 @@
     width: 100%;
 }
 
+.toggle-register {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.toggle-register span {
+    cursor: pointer;
+}
+
 .login-form a {
     display: flex;
     margin: auto;
@@ -57,10 +68,6 @@
 .login-form span {
     text-decoration:underline;
     text-underline-offset: 4px;
-}
-
-.toggle-login {
-    
 }
 
 .register-form {
@@ -80,7 +87,15 @@
     text-decoration:underline;
     text-underline-offset: 4px;
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
+}
+
+
+@media (max-width: 425px) {
+    .toggle-register {
+        font-size: 0.9rem;
+    }
 }
